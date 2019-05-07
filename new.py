@@ -99,7 +99,7 @@ def request_timetable(s1: str, s2: str, zeitpunkt: str):
         data = get_raspis(src, dest, zeitpunkt)
         return timetable_gen(data)
     else:
-        print('shits fucked, нет таких станций, мразь, писать научись, сука!!!!')
+        print('нет таких станций')
 
 
 def howlong(t1,t2):
