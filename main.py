@@ -41,7 +41,7 @@ def main():
                     Также можете приписать в конце "завтра" или день недели''')
                 else:
                     if len(request) < 4:
-                        write_msg(event.user_id, 'хуйню какую-то написал и радуешься. Пиши так, например: "от А до В завтра"')
+                        write_msg(event.user_id, 'ерунду какую-то написал и радуешься. Пиши так, например: "от А до В завтра"')
                     else:
                         try:
                             (source, dest, zeitpunkt) = tools.unstable_parser(request)
