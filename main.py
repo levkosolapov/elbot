@@ -6,6 +6,10 @@ import tools
 import datetime
 
 
+'''this all does not work, if you do not set random_id big enough 
+Random_id is defined lower in this file, you may search for it. 
+And yeah,vk api is отстой
+'''
 def increment_random_id():
     global i_will_never_use_global_variables_again
     i_will_never_use_global_variables_again += 1
