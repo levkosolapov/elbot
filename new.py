@@ -5,7 +5,8 @@ import tools
 from dateutil import  parser
 
 
-
+'''This is the file with fuctions that create a message body from user station names. User typos are allowed for.
+'''
 class StNameError(Exception):
     message = ''
 
